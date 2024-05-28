@@ -17,8 +17,6 @@ img {
 .container {
   width: 1920px;
   margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .navbar {
@@ -130,14 +128,19 @@ img {
 }
 
 .work {
-  width: 1300px;
+  width: 1296px;
   margin: 0 auto;
+}
+
+.work_menu {
   display: flex;
   flex-wrap: wrap;
   gap: 80px 24px;
 }
 
 .work_image {
+  max-width: 636px;
+  max-height: 400px;
   outline: 1px solid #f1f1f1;
   border-radius: 8px;
   margin-bottom: 16px;
