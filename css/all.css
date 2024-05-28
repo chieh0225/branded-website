@@ -14,6 +14,11 @@ img {
   line-height: 1.5;
 }
 
+.fs-4 {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
 .container {
   width: 1920px;
   margin: 0 auto;
@@ -152,11 +157,10 @@ img {
 
 .work_name {
   color: #3b3b3b;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 28px;
   line-height: 1.2;
-  font-weight: bold;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .work_intro {
@@ -176,4 +180,25 @@ img {
   background: #f1f1f1;
   border-radius: 16px;
   padding: 4px 12px 4px 12px;
+}
+
+.page_menu {
+  display: flex;
+  justify-content: center;
+  padding: 72px 884px 120px 884px;
+  gap: 16px;
+}
+
+.page_no {
+  display: block;
+  color: #1e1e1e;
+  background: #ffffff;
+  text-decoration: none;
+  padding: 2px 13px 2px 13px;
+  border-radius: 4px;
+}
+
+.page_no:hover {
+  color: white;
+  background: #3b3b3b;
 }
