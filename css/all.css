@@ -1,0 +1,176 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  /*  清除圖片下方的空間  */
+  vertical-align: middle;
+}
+
+.fs-6 {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.container {
+  width: 1920px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar {
+  width: 1920px;
+  display: flex;
+  margin: 0 auto;
+  gap: 318px;
+}
+
+.web_logo {
+  background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/a0deba953fc5322a513e717e7c24b25fa3d946f8/2024%20web-camp/logo.svg");
+  background-repeat: no-repeat;
+  display: block;
+  width: 90px;
+  height: 40px;
+  margin: 28px 0px 28px 312px;
+  text-decoration: none;
+  /*  將文字推出 <h1>  */
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.web_menu {
+  display: flex;
+  gap: 40px;
+  margin: 32px 0px;
+}
+
+.web_name {
+  color: #000000;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 4px 8px 4px 8px;
+  margin: 10px;
+}
+
+.experience {
+  width: 1920px;
+  height: 460px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 80px;
+  background: #fafafa;
+}
+
+.experience_heading {
+  width: 670px;
+  margin-top: 80px;
+}
+
+.quote-right {
+  padding-left: 598px;
+}
+
+.experience_content {
+  font-size: 24px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.hightlight {
+  background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/mark.png?raw=true);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.content_down {
+  margin-top: 16px;
+}
+
+.experience_menu {
+  width: 636px;
+  display: flex;
+  gap: 40px;
+  margin-top: 24px;
+}
+
+.experience_item {
+  width: 298px;
+  height: 84px;
+}
+
+.experience_item_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experience_name {
+  color: #5b5b5b;
+  text-align: center;
+}
+
+.hori-line {
+  width: 24px;
+  height: 1px;
+  border-top: solid #c1c1c1 2px;
+  margin-top: 4px;
+}
+
+.experience_intro {
+  color: #3b3b3b;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.work {
+  width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px 24px;
+}
+
+.work_image {
+  outline: 1px solid #f1f1f1;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.work_content {
+  padding-left: 16px;
+}
+
+.work_name {
+  color: #3b3b3b;
+  font-weight: 700px;
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.work_intro {
+  color: #919191;
+  margin-bottom: 24px;
+}
+
+.tag_menu {
+  display: flex;
+  gap: 16px;
+  padding-left: 16px;
+}
+
+.tag_name {
+  display: block;
+  color: #3b3b3b;
+  background: #f1f1f1;
+  border-radius: 16px;
+  padding: 4px 12px 4px 12px;
+}
