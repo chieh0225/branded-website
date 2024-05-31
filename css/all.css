@@ -9,6 +9,10 @@ img {
   vertical-align: middle;
 }
 
+a {
+  text-decoration: none;
+}
+
 .fs-6 {
   font-size: 16px;
   line-height: 1.5;
@@ -38,7 +42,6 @@ img {
   width: 90px;
   height: 40px;
   margin: 28px 0px 28px 312px;
-  text-decoration: none;
   /*  將文字推出 <h1>  */
   text-indent: 101%;
   overflow: hidden;
@@ -54,7 +57,6 @@ img {
 .web_name {
   color: #000000;
   font-weight: 600;
-  text-decoration: none;
   padding: 4px 8px 4px 8px;
   margin: 10px;
 }
@@ -193,7 +195,6 @@ img {
   display: block;
   color: #1e1e1e;
   background: #ffffff;
-  text-decoration: none;
   padding: 2px 13px 2px 13px;
   border-radius: 4px;
 }
