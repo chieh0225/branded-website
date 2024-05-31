@@ -1,3 +1,9 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Noto Sans", sans-serif;
 }
@@ -24,15 +30,21 @@ a {
 }
 
 .container {
-  width: 1920px;
+  max-width: 1296px;
   margin: 0 auto;
 }
 
+@media (max-width: 1295px) {
+  .container {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
 .navbar {
-  width: 1920px;
   display: flex;
-  margin: 0 auto;
   gap: 318px;
+  background: #ffffff;
 }
 
 .web_logo {
@@ -41,7 +53,7 @@ a {
   display: block;
   width: 90px;
   height: 40px;
-  margin: 28px 0px 28px 312px;
+  margin: 28px 0px;
   /*  將文字推出 <h1>  */
   text-indent: 101%;
   overflow: hidden;
@@ -62,11 +74,8 @@ a {
 }
 
 .experience {
-  width: 1920px;
   height: 460px;
-  margin: 0 auto;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   padding-bottom: 80px;
@@ -134,20 +143,21 @@ a {
   margin-top: 8px;
 }
 
-.work {
-  width: 1296px;
-  margin: 0 auto;
-}
-
 .work_menu {
   display: flex;
   flex-wrap: wrap;
-  gap: 80px 24px;
+  justify-content: space-between;
+  row-gap: 80px;
+  margin-bottom: 72px;
+}
+
+.work_item {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
 }
 
 .work_image {
-  max-width: 636px;
-  max-height: 400px;
   outline: 1px solid #f1f1f1;
   border-radius: 8px;
   margin-bottom: 16px;
@@ -187,7 +197,7 @@ a {
 .page_menu {
   display: flex;
   justify-content: center;
-  padding: 72px 884px 120px 884px;
+  padding: 72px 0px 120px 0px;
   gap: 16px;
 }
 
