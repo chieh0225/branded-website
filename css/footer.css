@@ -1,6 +1,5 @@
 .footer {
   border-top: 1px solid #fafafa;
-  padding: 80px 0;
   background: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/footer-bg-lg.png?raw=true);
   background-size: cover;
   background-position: center;
@@ -27,6 +26,10 @@
   gap: 24px;
 }
 
+.footer_logo {
+  width: 120px;
+}
+
 .footer_slogen {
   color: #3b3b3b;
   font-size: 20px;
@@ -44,6 +47,7 @@
 @media (max-width: 767px) {
   .footer_container {
     flex-direction: column;
+    padding-top: 0;
   }
   .footer_content {
     text-align: center;
